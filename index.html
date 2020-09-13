@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <title>Company Name</title>
+  <style type="text/css">
+    /*body, html {*/
+      /* The image used */
+      /*background-image: url("landscape.jpg");*/
+     /* width: 80%;
+     }*/
+     #nav {
+      color: white;
+      background-color: white;
+      margin: auto;
+      margin-top: 0px;
+      margin-bottom: 0px;
+     }
+     nav{
+      padding: 2px;
+      color: red;
+     }
+     nav li {
+      display: inline-block;
+      margin: 0px 15px;
+     }
+     nav li a {
+      text-decoration: none;
+      color:rgb(13,13,13);
+     }
+     .jumbotron {
+      color: white;
+      padding: 2rem 1rem;
+      margin-bottom: 2rem;
+      border-radius: .3rem;
+      height: 600px;
+      padding-top:200px;
+      /* The image used */
+      background-image: url("images/landscape.jpg");
+      background-repeat: no-repeat; background-size: cover; background-position: center center;
+     }
+     .jumbotron2 {      
+      padding: 2rem 1rem;
+      margin-bottom: 2rem;
+      border-radius: .3rem;
+      height: 300px;
+      padding-top:20px;
+      background-color: rgba(215, 240, 247, .6);
+     }
+     #box1 {
+      background-color: black;
+      width: 80%;
+      margin: auto;
+      padding: 10px;
+      margin-top: 0px;
+      margin-bottom: 0px;
+     }
+     #span1{
+     }
+     #footer{
+      background-color: black;
+      height:400px;
+     }
+     .inner-footer{
+      width:75%;
+      margin:auto;
+      padding: 30px 10px;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      justify-content: center;
+     }
+     .footer-items{
+      width:25%;
+      padding:10px 20px;
+      box-sizing: border-box;
+     }
+     h1{
+      padding: 10px 0;
+      font-size: 25px;
+      color: #fff;
+     }
+      h2 {
+      padding: 10px 0;
+      font-size: 35px;
+      color: #fff;
+     }
+      h3 {
+      padding: 10px 0;
+      font-size: 25px;
+      color: #fff;
+      text-transform:uppercase;
+     }
+      h4 {
+      padding: 10px 0;
+      font-size: 25px;
+      color: #fff;
+      text-transform:uppercase;
+     }
+     .footer-items p{
+      color:grey;
+      font-size: 16px;
+      text-align: justify;
+      line-height:25px;
+     }
+     h2{
+      margin: 10px 0;
+      color: grey;
+      font-size: 16px;
+      font-weight: lighter;
+      text-transform: uppercase;
+     }
+     .border{
+      height:2px;
+      width: 40px;
+      background: #ff9800;
+     }
+     ul{
+      list-style: none;
+      color: #fff;
+      font-size: 15px;
+      letter-spacing:0.5px
+     }
+     ul a{
+      text-decoration: none;
+      outline: none;
+      color:#fff;
+      transition:0.3s;
+     }
+     ul a:hover{
+      color: #ff9800;
+     }
+     ul li{
+      margin:10px 0;
+      height:25px;
+     }
+     li i{
+      margin-right:20px;
+     }
+     .footer-bottom{
+      padding: 10px
+      background: #3d545f;
+      color:#fff;
+      font-size: 12px;
+     }
+ </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Company Name</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron text-center">     
+      <h1 class="display-4">Company Name</h1>
+      <p class="lead">Tagline Message</p>
+      <hr style="width: 100px;margin: 20px auto;">
+      <button class="btn btn-secondary" onclick="buttonPressed()">Sign In</button>
+      <button class="btn btn-primary" onclick="buttonPressed()">Sign Up</button>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col-6">
+        <img src="images/mock_ipad.jpg" class="img-fluid" alt="Responsive image"></img>
+      </div>
+      <div class="col-6">
+        <h4>Lorem ipsum</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="row">
+        <br><br>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <h4>Lorem ipsum</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div class="col-6">
+          <img src="images/mock_nexus.jpg" class="img-fluid" alt="Responsive image"></img>
+        </div>
+        <hr>
+        <section id="features">
+          <div class="jumbotron2 text-center">            
+      <h2>Features</h2>
+            <p>Features headline message</p>
+            <br>
+            <table class="table table-bordered">
+              <tr>
+                <td>Feature</td>
+                <td>Feature</td>
+                <td>Feature</td>
+              </tr>
+              <tr>
+                <td>Feature</td>
+                <td>Feature</td>
+                <td>Feature</td>
+              </tr>
+          </table>
+          </div>
+        </section>
+        <hr>
+        <section id="pricing">
+          <div class="text-center">
+            <h2>Price Table</h2>
+            <table class="table table-bordered table-striped table-hover">
+              <tr class="bg-success text-light">
+                <th>Free Plan</th>
+                <th>Standard Plan</th>
+                <th>Premium Plan</th>
+              </tr>
+              <tr class="bg-success text-light">
+                <th>$ 0</th>
+                <th>$ 99</th>
+                <th>$ 999</th>
+              </tr>
+              <tr class="text-left">
+                <td>Lorem Ipsum</td>
+                <td>Lorem Ipsum</td>
+                <td>Lorem Ipsum</td>
+              </tr>
+              <tr class="text-left">
+                <td>Lorem Ipsum</td>
+                <td>Lorem Ipsum</td>
+                <td>Lorem Ipsum</td>
+              </tr>
+              <tr class="text-left">
+                <td>Dolor</td>
+                <td>Lorem Ipsum</td>
+                <td>Lorem Ipsum</td>
+              </tr>
+              <tr class="text-left">
+                <td>-</td>
+                <td>Dolor</td>
+                <td>Lorem Ipsum</td>
+              </tr>
+              <tr class="text-left">
+                <td>-</td>
+                <td>-</td>
+                <td>Lorem Ipsum</td>
+              </tr>
+              <tr>
+                <th><button class="btn btn-success">Purchase</button></th>
+                <th><button class="btn btn-primary">Purchase</button></th>
+                <th><button class="btn btn-danger">Purchase</button></th>
+              </tr>
+            </table>
+        </string>
+          </div>
+            <section>
+            <div class="row text-center">
+              <div class="col-4">
+                <img src="images/jon.png" class="rounded" alt="..."><br><h6>Jonny Doo</h6>CEO</img>
+              </div>
+              <div class="col-4">
+                <img src="images/jon.png" class="rounded-circle" alt="..."><br><h6>Jonny Doo</h6>CTO</img>
+              </div>
+              <div class="col-4">
+                <img src="images/jon.png" class="img-thumbnail" alt="..."><br><h6>Jonny Doo</h6>CIO</img>
+              </div>
+            </div>
+            <p></p>
+            <p></p>
+            <p></p>
+            <hr>
+            <p></p>
+            <p></p>
+            <p></p>
+            </section>
+            <section id="contact">
+            <div class="text-center">
+            <h5>Stay connected with us. Join the newsletter to receive fresh info.</h5>
+            <p></p>
+            <p></p>
+            <p></p>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label-sm"></label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Name">
+              <label for="formGroupExampleInput" class="form-label-sm"></label>
+              <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your Email">
+              <button class="btn btn-primary" onclick="buttonPressed()">Join Now</button>
+            </div>
+          </div>
+          <div class="footer" id="footer">
+            <div class="inner-footer">
+              <div class="footer-items">
+            <img src="images/logo.png"class="img-fluid" alt="Responsive image" width=150px>
+            </div>
+              <div class="footer-items">
+                <h1>The Company</h1>
+                <div class="border"></div>
+                  <ul>
+                    <a href="#"><li>Documentation</li></a>
+                    <a href="#"><li>Packt Publisher</li></a>
+                    <a href="#"><li>About us</li></a>
+                    <a href="#"><li>Contact</li></a>
+                  </ul>
+                 </div>
+                <div class="footer-items">
+                <h2> Social </h2>
+                <div class="border"></div>
+                  <ul>
+                    <a href="#"><li>Facebook</li></a>
+                    <a href="#"><li>Twitter</li></a>
+                    <a href="#"><li>Blog</li></a>
+                  </ul>
+            </div>
+                <div class="footer-items">
+                <h3>Support</h3>
+                <div class="border"></div>
+                  <ul>
+                    <a href=""><li>Contact</li></a>
+                    <a href=""><li>Privacy Police</li></a>
+                    <a href=""><li>Terms and Conditions</li></a>
+                    <a href=""><li>Help Desk</li></a>
+                  </ul>
+            </div>
+                <div class="footer-items">
+                <h4>Name, Inc</h4>
+                <div class="border"></div>
+                  <ul>
+                    <a href=""><li>Address line 1</li></a>
+                    <a href=""><li>Address line 2</li></a>
+                    <a href=""><li>P:(123)456-7890</li></a>
+                  </ul>
+            </div>
+            </div>
+          </div>
+          </section>
+  </div>
+<!-- Optional JavaScript -->
+<!-- Popper.js first, then Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous">
+</script>
+</body>
+</html>
